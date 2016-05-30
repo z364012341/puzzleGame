@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>0</key>
+		<dict>
+      <!-- 要显示的商品图标的名字 search, bigEyes, addTime-->
+			<key>showName</key>
+      <string>search</string>
+      <!-- 商品名字 -->
+      <key>storeName</key>
+      <string>快速提示:</string>
+      <!-- 商品描述 -->
+      <key>description</key>
+      <string>帮你瞬间找到拼图块位置</string>
+      <!-- 商品数量 -->
+      <key>numble</key>
+      <string>3</string>
+      <!-- 商品总价格 单位:元 -->
+      <key>cost</key>
+      <string>1</string>
+      <key>targetID</key>
+      <integer>101</integer>
+		</dict>
+  <key>1</key>
+		<dict>
+			<key>showName</key>
+      <string>bigEyes</string>
+      <key>storeName</key>
+      <string>天空之眼:</string>
+      <key>description</key>
+      <string>影子图一直存在</string>
+      <key>numble</key>
+      <string>5</string>
+      <key>cost</key>
+      <string>1</string>
+      <key>targetID</key>
+      <integer>104</integer>
+		</dict>
+  <key>2</key>
+		<dict>
+			<key>showName</key>
+      <string>addTime</string>
+      <key>storeName</key>
+      <string>时间倒流:</string>
+      <key>description</key>
+      <string>游戏剩余时间增加20秒</string>
+      <key>numble</key>
+      <string>3</string>
+      <key>cost</key>
+      <string>1</string>
+      <key>targetID</key>
+      <integer>107</integer>
+		</dict>
+    <key>3</key>
+    <dict>
+      <!-- 要显示的商品图标的名字 search, bigEyes, addTime-->
+      <key>showName</key>
+      <string>search</string>
+      <!-- 商品名字 -->
+      <key>storeName</key>
+      <string>快速提示:</string>
+      <!-- 商品描述 -->
+      <key>description</key>
+      <string>帮你瞬间找到拼图块位置</string>
+      <!-- 商品数量 -->
+      <key>numble</key>
+      <string>7</string>
+      <!-- 商品总价格 单位:元 -->
+      <key>cost</key>
+      <string>2</string>
+      <key>targetID</key>
+      <integer>102</integer>
+    </dict>
+  <key>4</key>
+    <dict>
+      <key>showName</key>
+      <string>bigEyes</string>
+      <key>storeName</key>
+      <string>天空之眼:</string>
+      <key>description</key>
+      <string>影子图一直存在</string>
+      <key>numble</key>
+      <string>12</string>
+      <key>cost</key>
+      <string>2</string>
+      <key>targetID</key>
+      <integer>105</integer>
+    </dict>
+  <key>5</key>
+    <dict>
+      <key>showName</key>
+      <string>addTime</string>
+      <key>storeName</key>
+      <string>时间倒流:</string>
+      <key>description</key>
+      <string>游戏剩余时间增加20秒</string>
+      <key>numble</key>
+      <string>7</string>
+      <key>cost</key>
+      <string>2</string>
+      <key>targetID</key>
+      <integer>108</integer>
+    </dict>
+    <key>6</key>
+    <dict>
+      <!-- 要显示的商品图标的名字 search, bigEyes, addTime-->
+      <key>showName</key>
+      <string>search</string>
+      <!-- 商品名字 -->
+      <key>storeName</key>
+      <string>快速提示:</string>
+      <!-- 商品描述 -->
+      <key>description</key>
+      <string>帮你瞬间找到拼图块位置</string>
+      <!-- 商品数量 -->
+      <key>numble</key>
+      <string>12</string>
+      <!-- 商品总价格 单位:元 -->
+      <key>cost</key>
+      <string>3</string>
+      <key>targetID</key>
+      <integer>103</integer>
+    </dict>
+  <key>7</key>
+    <dict>
+      <key>showName</key>
+      <string>bigEyes</string>
+      <key>storeName</key>
+      <string>天空之眼:</string>
+      <key>description</key>
+      <string>影子图一直存在</string>
+      <key>numble</key>
+      <string>20</string>
+      <key>cost</key>
+      <string>3</string>
+      <key>targetID</key>
+      <integer>106</integer>
+    </dict>
+  <key>8</key>
+    <dict>
+      <key>showName</key>
+      <string>addTime</string>
+      <key>storeName</key>
+      <string>时间倒流:</string>
+      <key>description</key>
+      <string>游戏剩余时间增加20秒</string>
+      <key>numble</key>
+      <string>12</string>
+      <key>cost</key>
+      <string>3</string>
+      <key>targetID</key>
+      <integer>109</integer>
+    </dict>
+  </dict>
+</plist>

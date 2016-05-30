@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>0</key>
+		<dict>
+      <!-- 要显示的商品图标的名字 search, bigEyes, addTime-->
+			<key>showName</key>
+      <string>gift_0</string>
+      <!-- 商品数量 -->
+      <key>numble</key>
+        <dict>
+        <key>search</key>
+        <string>12</string>
+        <key>bigEyes</key>
+        <string>20</string>
+        <key>addTime</key>
+        <string>12</string>
+        </dict>
+      <!-- 商品总价格 单位:元 -->
+      <key>cost</key>
+      <string>6</string>
+      <key>targetID</key>
+      <integer>110</integer>
+		</dict>
+		<key>1</key>
+		<dict>
+      <!-- 要显示的商品图标的名字 search, bigEyes, addTime-->
+			<key>showName</key>
+      <string>gift_1</string>
+      <!-- 商品数量 -->
+      <key>numble</key>
+        <dict>
+        <key>search</key>
+        <string>24</string>
+        <key>bigEyes</key>
+        <string>12</string>
+        <key>addTime</key>
+        <string>16</string>
+        </dict>
+      <!-- 商品总价格 单位:元 -->
+      <key>cost</key>
+      <string>10</string>
+      <key>targetID</key>
+      <integer>111</integer>
+		</dict>
+  	<key>2</key>
+		<dict>
+      <!-- 要显示的商品图标的名字 search, bigEyes, addTime-->
+			<key>showName</key>
+      <string>gift_2</string>
+      <!-- 商品数量 -->
+      <key>numble</key>
+        <dict>
+        <key>search</key>
+        <string>24</string>
+        <key>bigEyes</key>
+        <string>24</string>
+        <key>addTime</key>
+        <string>24</string>
+        </dict>
+      <!-- 商品总价格 单位:元 -->
+      <key>cost</key>
+      <string>12</string>
+      <key>targetID</key>
+      <integer>112</integer>
+		</dict>
+  </dict>
+</plist>

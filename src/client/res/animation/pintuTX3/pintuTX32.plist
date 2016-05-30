@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>pintuTX_0001_7.png</key>
+			<dict>
+				<key>width</key>
+				<integer>789</integer>
+				<key>height</key>
+				<integer>792</integer>
+				<key>originalWidth</key>
+				<integer>876</integer>
+				<key>originalHeight</key>
+				<integer>864</integer>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>0</integer>
+				<key>offsetX</key>
+				<real>9.5</real>
+				<key>offsetY</key>
+				<real>2</real>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>0</integer>
+			<key>textureFileName</key>
+			<string>pintuTX32.png</string>
+			<key>realTextureFileName</key>
+			<string>pintuTX32.png</string>
+			<key>size</key>
+			<string>{1024,2048}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>2048</integer>
+		</dict>
+	</dict>
+</plist>

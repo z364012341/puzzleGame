@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<include>
+
+    <store>
+        <data targetID="101" payCode="30000969018301"/>
+        <data targetID="102" payCode="30000969018302"/>
+        <data targetID="103" payCode="30000969018303"/>
+        <data targetID="104" payCode="30000969018304"/>
+        <data targetID="105" payCode="30000969018305"/>
+        <data targetID="106" payCode="30000969018306"/>
+        <data targetID="107" payCode="30000969018307"/>
+        <data targetID="108" payCode="30000969018308"/>
+        <data targetID="109" payCode="30000969018309"/>
+        <data targetID="110" payCode="30000969018310"/>
+        <data targetID="111" payCode="30000969018311"/>
+        <data targetID="112" payCode="30000969018312"/>
+        <data targetID="113" payCode="30000969018313"/>
+    </store>
+
+</include>

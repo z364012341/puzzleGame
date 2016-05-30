@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<include>
+	<bubbles>
+		<data type="0" row="7" col="8" cloud="8" path="" />
+		<data type="3" row="10" col="6" cloud="8" path="" />
+		<data type="19" row="10" col="3" cloud="0" path="" />
+		<data type="19" row="9" col="5" cloud="0" path="" />
+		<data type="19" row="6" col="1" cloud="0" path="" />
+		<data type="19" row="2" col="5" cloud="0" path="" />
+		<data type="1" row="2" col="4" cloud="8" path="" />
+		<data type="19" row="4" col="4" cloud="0" path="" />
+		<data type="19" row="4" col="8" cloud="0" path="" />
+		<data type="1" row="6" col="4" cloud="0" path="" />
+		<data type="19" row="4" col="2" cloud="0" path="" />
+		<data type="19" row="8" col="7" cloud="0" path="" />
+		<data type="19" row="4" col="7" cloud="0" path="" />
+		<data type="19" row="5" col="7" cloud="0" path="" />
+		<data type="19" row="8" col="6" cloud="0" path="" />
+		<data type="19" row="8" col="2" cloud="0" path="" />
+		<data type="19" row="7" col="2" cloud="0" path="" />
+		<data type="19" row="6" col="7" cloud="0" path="" />
+		<data type="0" row="3" col="6" cloud="8" path="" />
+		<data type="19" row="10" col="5" cloud="0" path="" />
+		<data type="2" row="9" col="6" cloud="8" path="" />
+		<data type="3" row="6" col="2" cloud="8" path="" />
+		<data type="19" row="5" col="2" cloud="0" path="" />
+		<data type="1" row="9" col="3" cloud="8" path="" />
+		<data type="19" row="10" col="7" cloud="0" path="" />
+		<data type="20" row="6" col="5" cloud="0" path="" />
+		<data type="19" row="6" col="9" cloud="0" path="" />
+		<data type="1" row="6" col="6" cloud="0" path="" />
+		<data type="0" row="5" col="4" cloud="0" path="" />
+		<data type="2" row="9" col="2" cloud="8" path="" />
+		<data type="0" row="5" col="1" cloud="8" path="" />
+		<data type="19" row="4" col="6" cloud="0" path="" />
+		<data type="19" row="8" col="3" cloud="0" path="" />
+		<data type="2" row="7" col="4" cloud="0" path="" />
+		<data type="2" row="3" col="3" cloud="8" path="" />
+		<data type="19" row="7" col="7" cloud="0" path="" />
+		<data type="19" row="2" col="3" cloud="0" path="" />
+		<data type="19" row="6" col="3" cloud="0" path="" />
+		<data type="1" row="3" col="7" cloud="8" path="" />
+		<data type="19" row="3" col="4" cloud="0" path="" />
+		<data type="0" row="7" col="5" cloud="0" path="" />
+		<data type="19" row="4" col="3" cloud="0" path="" />
+		<data type="19" row="9" col="4" cloud="0" path="" />
+		<data type="19" row="8" col="4" cloud="0" path="" />
+		<data type="19" row="3" col="5" cloud="0" path="" />
+		<data type="19" row="8" col="8" cloud="0" path="" />
+		<data type="19" row="2" col="7" cloud="0" path="" />
+		<data type="3" row="5" col="5" cloud="0" path="" />
+		<data type="3" row="6" col="8" cloud="8" path="" />
+	</bubbles>
+	<info bubbleNum="28" type="8" start1="3500" start2="15000" start3="28000" colors="1111000" />
+</include>

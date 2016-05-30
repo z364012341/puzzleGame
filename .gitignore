@@ -16,7 +16,10 @@
 /src/client/frameworks/runtime-src/proj.win32/*.sdf
 /src/client/frameworks/runtime-src/proj.win32/Release.win32
 /src/client/frameworks/runtime-src/proj.win32/*.VC.opendb
-/src/client/frameworks/runtime-src/proj.android/libs
+/src/client/frameworks/runtime-src/proj.android
+/src/client/frameworks/runtime-src/proj.android-studio
+/src/client/frameworks/runtime-src/proj.ios_mac
+/src/client/frameworks/runtime-src/proj.linux
 /src_ui
 /src/client/frameworks/runtime-src/proj.win32/*.VC.db
 /src/client/cocosstudio

@@ -1,0 +1,199 @@
+<Solution>
+  <PropertyGroup Name="puzzleGame" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="animation">
+          <Folder Name="hippoStageAnimation">
+            <Image Name="hema_0000_9.png" />
+            <Image Name="hema_0001_8.png" />
+            <Image Name="hema_0002_7.png" />
+            <Image Name="hema_0003_6.png" />
+            <Image Name="hema_0004_5.png" />
+            <Image Name="hema_0005_4.png" />
+            <Image Name="hema_0006_3.png" />
+            <Image Name="hema_0007_2.png" />
+            <Image Name="hema_0008_1.png" />
+          </Folder>
+          <ExportJsonFile Name="ditudanshenniu3.ExportJson" />
+          <ExportJsonFile Name="ditun-en-ai-niu.ExportJson" />
+          <ExportJsonFile Name="ditusongshu.ExportJson" />
+          <ExportJsonFile Name="hema.ExportJson" />
+          <ExportJsonFile Name="jinbi.ExportJson" />
+          <ExportJsonFile Name="juanzhi.ExportJson" />
+          <ExportJsonFile Name="yingguangdian.ExportJson" />
+          <ExportJsonFile Name="zuanshi.ExportJson" />
+        </Folder>
+        <Folder Name="fonts">
+          <Fnt Name="anniuwenzi-export.fnt" />
+          <Fnt Name="puzzle_store-export.fnt" />
+          <Image Name="shuzi.png" />
+          <Image Name="shuzigeshu.png" />
+          <Fnt Name="stageTypeface-export.fnt" />
+          <Image Name="storeLabel.png" />
+          <Fnt Name="tongshuzi-export.fnt" />
+          <Fnt Name="typeface-export.fnt" />
+        </Folder>
+        <Folder Name="particle">
+          <PlistParticleFile Name="DTshangshengyingguangdian.plist" />
+          <PlistParticleFile Name="enainiuTX.plist" />
+          <PlistParticleFile Name="qipao.plist" />
+        </Folder>
+        <Folder Name="stage">
+          <Folder Name="StageSelectRes">
+            <Image Name="episode001_hd.jpg" />
+            <Image Name="episode002_hd.jpg" />
+            <Image Name="episode003_hd.jpg" />
+            <Image Name="episode004_hd.jpg" />
+            <Image Name="episode005_hd.jpg" />
+            <Image Name="episode006_hd.jpg" />
+          </Folder>
+          <Project Name="StageNode0.csd" Type="Node" />
+          <Project Name="StageNode1.csd" Type="Node" />
+          <Project Name="StageNode2.csd" Type="Node" />
+          <Project Name="StageNode3.csd" Type="Node" />
+          <Project Name="StageNode4.csd" Type="Node" />
+          <Project Name="StageNode5.csd" Type="Node" />
+        </Folder>
+        <Folder Name="ui">
+          <Folder Name="menuRes">
+            <Image Name="anniucaidan.PNG" />
+            <Image Name="anniucfanhui yuan.PNG" />
+            <Image Name="anniuchongwanchang.PNG" />
+            <Image Name="anniutianjia.PNG" />
+            <Image Name="anniutuichu.PNG" />
+            <Image Name="anniuxuanguan.PNG" />
+            <Image Name="anniuzanting.PNG" />
+            <Image Name="beijingzhujiemian.png" />
+            <Image Name="benguanpaihang.png" />
+            <Image Name="blueButtonBg.png" />
+            <Image Name="daoju1.PNG" />
+            <Image Name="daoju2.PNG" />
+            <Image Name="daoju3.PNG" />
+            <Image Name="daojudi.PNG" />
+            <Image Name="dingzi.PNG" />
+            <Image Name="disanxing.PNG" />
+            <Image Name="fanyeyou.PNG" />
+            <Image Name="fanyezuo.PNG" />
+            <Image Name="fzx.png" />
+            <Image Name="guanzih1.png" />
+            <Image Name="guanzih11.png" />
+            <Image Name="guanzil1.png" />
+            <Image Name="guanzil11.png" />
+            <Image Name="guanziz1.png" />
+            <Image Name="guanziz11.png" />
+            <Image Name="haoyou.PNG" />
+            <Image Name="j10p.png" />
+            <Image Name="jinbi.PNG" />
+            <Image Name="kaishiguang.png" />
+            <Image Name="kuanghuang.png" />
+            <Image Name="kuangliubianxing.PNG" />
+            <Image Name="kuangzi.png" />
+            <Image Name="libaocg.png" />
+            <Image Name="libaochaozhi.png" />
+            <Image Name="libaochuangguan.png" />
+            <Image Name="libaocz.png" />
+            <Image Name="libaokuang.png" />
+            <Image Name="libaotehui.png" />
+            <Image Name="libaoth.png" />
+            <Image Name="loading.png" />
+            <Image Name="pintu01.png" />
+            <Image Name="pintubeijing01.png" />
+            <Image Name="pintubeijing02.png" />
+            <Image Name="pintukuang.PNG" />
+            <Image Name="pintutaizi.PNG" />
+            <Image Name="puzzle_loading_bg.png" />
+            <Image Name="qiehuan fengjing.PNG" />
+            <Image Name="qiehuan xunbao.PNG" />
+            <Image Name="qiehuan.png" />
+            <Image Name="qiehuandaoju.png" />
+            <Image Name="qiehuandi.PNG" />
+            <Image Name="qiehuanlibao.png" />
+            <Image Name="qiehuanpaizi.png" />
+            <Image Name="share.PNG" />
+            <Image Name="shengzi.PNG" />
+            <Image Name="shezhi.PNG" />
+            <Image Name="shuzikuang.PNG" />
+            <Image Name="startBubbleBG2.png" />
+            <Image Name="startButtonTriangle.png" />
+            <Image Name="store_button.png" />
+            <Image Name="tanchaung1.PNG" />
+            <Image Name="tanchaung3.PNG" />
+            <Image Name="tanchaungyinni.PNG" />
+            <Image Name="tanchuang2.PNG" />
+            <Image Name="tanchuanghuan.PNG" />
+            <Image Name="tanchuangsheng.PNG" />
+            <Image Name="tanchuangtou.PNG" />
+            <Image Name="tili.PNG" />
+            <Image Name="tubiaolibao.PNG" />
+            <Image Name="tubiaopaihang.PNG" />
+            <Image Name="tubiaopintu.PNG" />
+            <Image Name="tubiaoqiandao.PNG" />
+            <Image Name="tubiaoshangcheng.PNG" />
+            <Image Name="tubiaotiaozhan.PNG" />
+            <Image Name="tubiaotiezhi.PNG" />
+            <Image Name="uishangkuang.PNG" />
+            <Image Name="uixia.PNG" />
+            <Image Name="wenzibencihaoshi.PNG" />
+            <Image Name="wenzideifen.PNG" />
+            <Image Name="wenzipintu.PNG" />
+            <Image Name="wenzishengyushijian.PNG" />
+            <Image Name="wenzizuijia.PNG" />
+            <Image Name="xingxing.png" />
+            <Image Name="xinshoulibao.png" />
+            <Image Name="xinshoulibaoneirong.png" />
+            <Image Name="xinshoulibaotubiao.png" />
+            <Image Name="xuanzhong.PNG" />
+            <Image Name="yaoshui.png" />
+            <Image Name="yun.png" />
+            <Image Name="zhi.PNG" />
+            <Image Name="zhixiao.PNG" />
+            <Image Name="zitiao.PNG" />
+            <Image Name="zuanshi.PNG" />
+          </Folder>
+          <Project Name="AddBubbleNumbleCommodity.csd" Type="Node" />
+          <Project Name="AddButton.csd" Type="Node" />
+          <Project Name="AddSpecialCommodity.csd" Type="Node" />
+          <Project Name="AimingLineCommodity.csd" Type="Node" />
+          <Project Name="AlertRope.csd" Type="Node" />
+          <Project Name="BarrelScoreLabelNode.csd" Type="Node" />
+          <Project Name="CharactorShow.csd" Type="Node" />
+          <Project Name="EnterGameAlert.csd" Type="Node" />
+          <Project Name="EnterGameProps.csd" Type="Node" />
+          <Project Name="GameLayer.csd" Type="Layer" />
+          <Project Name="GamePauseAlert.csd" Type="Node" />
+          <Project Name="GamePropsCoinTag.csd" Type="Node" />
+          <Project Name="GameScoreNumble.csd" Type="Node" />
+          <Project Name="GameShareButton.csd" Type="Node" />
+          <Project Name="GameStageSelectionLayer.csd" Type="Scene" />
+          <Project Name="GameStartMenuBottom.csd" Type="Node" />
+          <Project Name="GameStartMenuTop.csd" Type="Node" />
+          <Project Name="GameTaskNumble.csd" Type="Node" />
+          <Project Name="GameVictoryAlert.csd" Type="Node" />
+          <Project Name="NewbieGiftAlert.csd" Type="Node" />
+          <Project Name="NextStageButton.csd" Type="Node" />
+          <Project Name="PuzzleDefeatAlert.csd" Type="Node" />
+          <Project Name="PuzzleLoadingLayer.csd" Type="Layer" />
+          <Project Name="PuzzlePauseAlert.csd" Type="Node" />
+          <Project Name="PuzzlePlayLayer.csd" Type="Layer" />
+          <Project Name="PuzzleSelectionLayer.csd" Type="Layer" />
+          <Project Name="PuzzleStartLayer.csd" Type="Layer" />
+          <Project Name="PuzzleStoreAlert.csd" Type="Node" />
+          <Project Name="PuzzleStoreGiftSitem.csd" Type="Layer" />
+          <Project Name="PuzzleStoreitem.csd" Type="Layer" />
+          <Project Name="PuzzleStoreItemBuyLabel.csd" Type="Node" />
+          <Project Name="PuzzleTimeDisplay.csd" Type="Node" />
+          <Project Name="PuzzleVictoryAlert.csd" Type="Node" />
+          <Project Name="RainbowSealBubbleCover.csd" Type="Node" />
+          <Project Name="SecondBubbleStore.csd" Type="Node" />
+          <Project Name="SpiderNode.csd" Type="Node" />
+          <Project Name="StageNumbleBoard.csd" Type="Node" />
+          <PlistInfo Name="StudioResPlist.csi" Type="Plist" />
+          <Project Name="UserCoinInfo.csd" Type="Node" />
+          <Project Name="UserDiamondInfo.csd" Type="Node" />
+          <Project Name="UserStrengthInfo.csd" Type="Node" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
