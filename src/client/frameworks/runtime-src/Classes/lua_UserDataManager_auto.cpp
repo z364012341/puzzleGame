@@ -201,53 +201,6 @@ int lua_UserDataManager_UserDataManager_setGameMusicEnable(lua_State* tolua_S)
 
     return 0;
 }
-int lua_UserDataManager_UserDataManager_isCompletedGame(lua_State* tolua_S)
-{
-    int argc = 0;
-    bubble_second::UserDataManager* cobj = nullptr;
-    bool ok  = true;
-
-#if COCOS2D_DEBUG >= 1
-    tolua_Error tolua_err;
-#endif
-
-
-#if COCOS2D_DEBUG >= 1
-    if (!tolua_isusertype(tolua_S,1,"bs.UserDataManager",0,&tolua_err)) goto tolua_lerror;
-#endif
-
-    cobj = (bubble_second::UserDataManager*)tolua_tousertype(tolua_S,1,0);
-
-#if COCOS2D_DEBUG >= 1
-    if (!cobj) 
-    {
-        tolua_error(tolua_S,"invalid 'cobj' in function 'lua_UserDataManager_UserDataManager_isCompletedGame'", nullptr);
-        return 0;
-    }
-#endif
-
-    argc = lua_gettop(tolua_S)-1;
-    if (argc == 0) 
-    {
-        if(!ok)
-        {
-            tolua_error(tolua_S,"invalid arguments in function 'lua_UserDataManager_UserDataManager_isCompletedGame'", nullptr);
-            return 0;
-        }
-        bool ret = cobj->isCompletedGame();
-        tolua_pushboolean(tolua_S,(bool)ret);
-        return 1;
-    }
-    luaL_error(tolua_S, "%s has wrong number of arguments: %d, was expecting %d \n", "bs.UserDataManager:isCompletedGame",argc, 0);
-    return 0;
-
-#if COCOS2D_DEBUG >= 1
-    tolua_lerror:
-    tolua_error(tolua_S,"#ferror in function 'lua_UserDataManager_UserDataManager_isCompletedGame'.",&tolua_err);
-#endif
-
-    return 0;
-}
 int lua_UserDataManager_UserDataManager_isGameMusicEnable(lua_State* tolua_S)
 {
     int argc = 0;
@@ -1515,7 +1468,6 @@ int lua_register_UserDataManager_UserDataManager(lua_State* tolua_S)
         tolua_function(tolua_S,"savePuzzleStageData",lua_UserDataManager_UserDataManager_savePuzzleStageData);
         tolua_function(tolua_S,"cutPropsNumbleWithKey",lua_UserDataManager_UserDataManager_cutPropsNumbleWithKey);
         tolua_function(tolua_S,"setGameMusicEnable",lua_UserDataManager_UserDataManager_setGameMusicEnable);
-        tolua_function(tolua_S,"isCompletedGame",lua_UserDataManager_UserDataManager_isCompletedGame);
         tolua_function(tolua_S,"isGameMusicEnable",lua_UserDataManager_UserDataManager_isGameMusicEnable);
         tolua_function(tolua_S,"getUserNickname",lua_UserDataManager_UserDataManager_getUserNickname);
         tolua_function(tolua_S,"isUnlockWithStageNumble",lua_UserDataManager_UserDataManager_isUnlockWithStageNumble);

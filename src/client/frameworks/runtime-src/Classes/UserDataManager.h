@@ -41,7 +41,7 @@ namespace bubble_second {
         //保存玩家数据
         void saveUserData();
         //游戏是否通关
-        bool isCompletedGame();
+        //bool isCompletedGame();
         //+1解锁关卡
         void addUnlockStageNumble();
         bool isUnlockWithStageNumble(int stage_numble);

@@ -1,5 +1,5 @@
 #include "UserDataManager.h"
-#include "StageDataManager.h"
+//#include "StageDataManager.h"
 #include "md5.h"
 #include "XMLTool.h"
 #include "GameBuyStoreMannager.h"
@@ -164,10 +164,10 @@ namespace bubble_second {
         cocos2d::FileUtils::getInstance()->writeValueMapToFile(user_data_, path);
 
     }
-    bool UserDataManager::isCompletedGame()
-    {
-        return this->getStagePassCount() == StageDataManager::getInstance()->getStageTotalNumble();
-    }
+    //bool UserDataManager::isCompletedGame()
+    //{
+    //    return this->getStagePassCount() == StageDataManager::getInstance()->getStageTotalNumble();
+    //}
     void UserDataManager::writeStageDataToFile()
     {
         std::string path = getStageDataPath();

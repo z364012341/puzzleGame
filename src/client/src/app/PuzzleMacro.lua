@@ -132,16 +132,19 @@ cc.exports.puzzle = {
 	   [PUZZLE_STENCIL_COMPONENT_INSIDE] = PUZZLE_PIECE_SHADOW_LACK_PATH
 	}
 }
-cc.exports.TREASURE_MAP_PAGEVIEW_NAME = "treasure_map_pageview";
-cc.exports.LANDSCAPE_PAGEVIEW_NAME = "landscape_pageview";
+cc.exports.TREASURE_MAP_PAGEVIEW_NAME = "difficulty_pageview";
+cc.exports.LANDSCAPE_PAGEVIEW_NAME = "normal_pageview";
 cc.exports.PAGEVIEW_INITAIL_DATA = {
 	[TREASURE_MAP_PAGEVIEW_NAME] = {
-		PAGE_PATH = {"puzzle(1).jpg", "puzzle(2).jpg"},
+		PAGE_PATH = {"difficulty_puzzle (1).jpg", "difficulty_puzzle (2).jpg", "difficulty_puzzle (3).jpg","difficulty_puzzle (4).jpg",
+		 "difficulty_puzzle (5).jpg", "difficulty_puzzle (6).jpg","difficulty_puzzle (7).jpg", "difficulty_puzzle (8).jpg",
+		 "difficulty_puzzle (9).jpg", "difficulty_puzzle (10).jpg", "difficulty_puzzle (11).jpg", "difficulty_puzzle (12).jpg"},
 		VISIBLE = false;
 	},
 	[LANDSCAPE_PAGEVIEW_NAME] = {
-		PAGE_PATH = {"puzzle_landscape (1).jpg", "puzzle_landscape (2).jpg", "puzzle_landscape (3).jpg","puzzle_landscape (4).jpg",
-		 "puzzle_landscape (5).jpg", "puzzle_landscape (6).jpg","puzzle_landscape (7).jpg", "puzzle_landscape (8).jpg", "puzzle_landscape (9).jpg"},
+		PAGE_PATH = {"normal_puzzle (1).jpg", "normal_puzzle (2).jpg", "normal_puzzle (3).jpg","normal_puzzle (4).jpg",
+		 "normal_puzzle (5).jpg", "normal_puzzle (6).jpg","normal_puzzle (7).jpg", "normal_puzzle (8).jpg",
+		 "normal_puzzle (9).jpg", "normal_puzzle (10).jpg", "normal_puzzle (11).jpg", "normal_puzzle (12).jpg"},
 		VISIBLE = true;
 	},
 }

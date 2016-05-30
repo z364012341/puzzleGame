@@ -1,0 +1,18 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="StudioResPlist" Type="Plist" ID="c88fbba5-f607-47f8-87cc-04d20646191a" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="2" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="daochu/jindutiao.png" />
+      <FilePathData Path="daochu/jindutiaokuang.png" />
+      <FilePathData Path="daochu/tong1xia.PNG" />
+      <FilePathData Path="daochu/tong2xia.PNG" />
+      <FilePathData Path="daochu/tong3xia.PNG" />
+      <FilePathData Path="daochu/tong4xia.PNG" />
+      <FilePathData Path="daochu/tong5xia.PNG" />
+      <FilePathData Path="daochu/tonglanshang.PNG" />
+      <FilePathData Path="daochu/tonglvshang.PNG" />
+      <FilePathData Path="daochu/tongzishang.PNG" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="256" />
+  </Content>
+</PlistInfoProjectFile>

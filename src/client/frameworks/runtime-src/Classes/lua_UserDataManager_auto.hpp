@@ -44,5 +44,4 @@ int register_all_UserDataManager(lua_State* tolua_S);
 
 
 
-
 #endif // __UserDataManager_h__

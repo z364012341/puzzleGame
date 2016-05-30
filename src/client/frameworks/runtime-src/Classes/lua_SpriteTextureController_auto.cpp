@@ -107,77 +107,6 @@ int lua_SpriteTextureController_SpriteTextureController_setSpriteTexture(lua_Sta
 
     return 0;
 }
-int lua_SpriteTextureController_SpriteTextureController_createMenuItemSprite(lua_State* tolua_S)
-{
-    int argc = 0;
-    bubble_second::SpriteTextureController* cobj = nullptr;
-    bool ok  = true;
-
-#if COCOS2D_DEBUG >= 1
-    tolua_Error tolua_err;
-#endif
-
-
-#if COCOS2D_DEBUG >= 1
-    if (!tolua_isusertype(tolua_S,1,"bs.SpriteTextureController",0,&tolua_err)) goto tolua_lerror;
-#endif
-
-    cobj = (bubble_second::SpriteTextureController*)tolua_tousertype(tolua_S,1,0);
-
-#if COCOS2D_DEBUG >= 1
-    if (!cobj) 
-    {
-        tolua_error(tolua_S,"invalid 'cobj' in function 'lua_SpriteTextureController_SpriteTextureController_createMenuItemSprite'", nullptr);
-        return 0;
-    }
-#endif
-
-    argc = lua_gettop(tolua_S)-1;
-    if (argc == 1) 
-    {
-        std::string arg0;
-
-        ok &= luaval_to_std_string(tolua_S, 2,&arg0, "bs.SpriteTextureController:createMenuItemSprite");
-        if(!ok)
-        {
-            tolua_error(tolua_S,"invalid arguments in function 'lua_SpriteTextureController_SpriteTextureController_createMenuItemSprite'", nullptr);
-            return 0;
-        }
-        bubble_second::CenteredMenuItemSprite* ret = cobj->createMenuItemSprite(arg0);
-        object_to_luaval<bubble_second::CenteredMenuItemSprite>(tolua_S, "bs.CenteredMenuItemSprite",(bubble_second::CenteredMenuItemSprite*)ret);
-        return 1;
-    }
-    if (argc == 2) 
-    {
-        std::string arg0;
-        std::function<void (cocos2d::Ref *)> arg1;
-
-        ok &= luaval_to_std_string(tolua_S, 2,&arg0, "bs.SpriteTextureController:createMenuItemSprite");
-
-        do {
-			// Lambda binding for lua is not supported.
-			assert(false);
-		} while(0)
-		;
-        if(!ok)
-        {
-            tolua_error(tolua_S,"invalid arguments in function 'lua_SpriteTextureController_SpriteTextureController_createMenuItemSprite'", nullptr);
-            return 0;
-        }
-        bubble_second::CenteredMenuItemSprite* ret = cobj->createMenuItemSprite(arg0, arg1);
-        object_to_luaval<bubble_second::CenteredMenuItemSprite>(tolua_S, "bs.CenteredMenuItemSprite",(bubble_second::CenteredMenuItemSprite*)ret);
-        return 1;
-    }
-    luaL_error(tolua_S, "%s has wrong number of arguments: %d, was expecting %d \n", "bs.SpriteTextureController:createMenuItemSprite",argc, 1);
-    return 0;
-
-#if COCOS2D_DEBUG >= 1
-    tolua_lerror:
-    tolua_error(tolua_S,"#ferror in function 'lua_SpriteTextureController_SpriteTextureController_createMenuItemSprite'.",&tolua_err);
-#endif
-
-    return 0;
-}
 int lua_SpriteTextureController_SpriteTextureController_createStageTypeSprite(lua_State* tolua_S)
 {
     int argc = 0;
@@ -473,7 +402,6 @@ int lua_register_SpriteTextureController_SpriteTextureController(lua_State* tolu
     tolua_beginmodule(tolua_S,"SpriteTextureController");
         tolua_function(tolua_S,"setGrayShader",lua_SpriteTextureController_SpriteTextureController_setGrayShader);
         tolua_function(tolua_S,"setSpriteTexture",lua_SpriteTextureController_SpriteTextureController_setSpriteTexture);
-        tolua_function(tolua_S,"createMenuItemSprite",lua_SpriteTextureController_SpriteTextureController_createMenuItemSprite);
         tolua_function(tolua_S,"createStageTypeSprite",lua_SpriteTextureController_SpriteTextureController_createStageTypeSprite);
         tolua_function(tolua_S,"addResourcesTexture",lua_SpriteTextureController_SpriteTextureController_addResourcesTexture);
         tolua_function(tolua_S,"createGameBackgroundSprite",lua_SpriteTextureController_SpriteTextureController_createGameBackgroundSprite);

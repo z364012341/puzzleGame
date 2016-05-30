@@ -10,7 +10,7 @@
 #ifndef _SPRITE_TEXTURE_CONTROLLER_H_
 #define _SPRITE_TEXTURE_CONTROLLER_H_
 #include "BubbleSecondConstant.h"
-#include "CenteredMenuItemSprite.h"
+//#include "CenteredMenuItemSprite.h"
 const std::string GAME_COIN_PATH = "jinbi.PNG"; //½ð±Ò
 namespace bubble_second {
     class CenteredMenuItemSprite;
@@ -21,7 +21,7 @@ namespace bubble_second {
         ~SpriteTextureController();
         void setSpriteTexture(const std::string& path, cocos2d::Sprite* sprite);
         cocos2d::Sprite* createGameSpriteWithPath(const std::string& path);
-        CenteredMenuItemSprite* createMenuItemSprite(const std::string& path, const cocos2d::ccMenuCallback& callback = nullptr);
+        //CenteredMenuItemSprite* createMenuItemSprite(const std::string& path, const cocos2d::ccMenuCallback& callback = nullptr);
         cocos2d::Sprite* createStageTypeSprite(const StageType& type);
         cocos2d::Sprite* createMenuStageTypeSprite(const StageType& type);
         //cocos2d::Sprite* createStageTypeSprite(const StageType& type);

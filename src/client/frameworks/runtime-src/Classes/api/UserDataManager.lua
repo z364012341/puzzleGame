@@ -32,12 +32,6 @@
         
 --------------------------------
 -- 
--- @function [parent=#UserDataManager] isCompletedGame 
--- @param self
--- @return bool#bool ret (return value: bool)
-        
---------------------------------
--- 
 -- @function [parent=#UserDataManager] isGameMusicEnable 
 -- @param self
 -- @return bool#bool ret (return value: bool)

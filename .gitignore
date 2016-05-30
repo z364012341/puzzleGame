@@ -2,8 +2,6 @@
 *.obj
 *.lib
 *.dll
-*.cfg
-*.udf
 /src/client/frameworks/cocos2d-x
 /src/client/simulator/win32
 /src/client/publish/win32
@@ -22,4 +20,3 @@
 /src/client/frameworks/runtime-src/proj.linux
 /src_ui
 /src/client/frameworks/runtime-src/proj.win32/*.VC.db
-/src/client/cocosstudio

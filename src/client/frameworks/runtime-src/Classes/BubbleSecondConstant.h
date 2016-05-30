@@ -11,7 +11,7 @@
 #ifndef _BUBBLE_SECOND_CONSTANT_H_
 #define _BUBBLE_SECOND_CONSTANT_H_
 #include "cocos2d.h"
-#include "StageData.h"
+//#include "StageData.h"
 #define GETINSTANCE_FUNC(__TYPE__) \
     static __TYPE__* getInstance() \
     { \

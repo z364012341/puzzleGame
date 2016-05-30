@@ -134,15 +134,15 @@ namespace bubble_second {
         return sp;
     }
 
-    CenteredMenuItemSprite * SpriteTextureController::createMenuItemSprite(const std::string & path, const cocos2d::ccMenuCallback & callback)
-    {
-        cocos2d::Sprite* item_select = this->createGameSpriteWithPath(path);
-        item_select->setScale(GAME_MENU_SELECT_SCALE);
-        cocos2d::Sprite* item_normal = this->createGameSpriteWithPath(path);
-        CenteredMenuItemSprite* item = CenteredMenuItemSprite::create(item_normal, item_select, [=](cocos2d::Ref*) {
-        });
-        return item;
-    }
+    //CenteredMenuItemSprite * SpriteTextureController::createMenuItemSprite(const std::string & path, const cocos2d::ccMenuCallback & callback)
+    //{
+    //    cocos2d::Sprite* item_select = this->createGameSpriteWithPath(path);
+    //    item_select->setScale(GAME_MENU_SELECT_SCALE);
+    //    cocos2d::Sprite* item_normal = this->createGameSpriteWithPath(path);
+    //    CenteredMenuItemSprite* item = CenteredMenuItemSprite::create(item_normal, item_select, [=](cocos2d::Ref*) {
+    //    });
+    //    return item;
+    //}
 
     cocos2d::Sprite * SpriteTextureController::createStageTypeSprite(const StageType & type)
     {

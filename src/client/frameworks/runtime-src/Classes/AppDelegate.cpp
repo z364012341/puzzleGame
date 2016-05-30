@@ -3,8 +3,8 @@
 #include "SimpleAudioEngine.h"
 #include "cocos2d.h"
 #include "lua_module_register.h"
-#include "lua_LoadingScene_auto.hpp"
-#include "lua_GameStageSelectionScene_auto.hpp"
+//#include "lua_LoadingScene_auto.hpp"
+//#include "lua_GameStageSelectionScene_auto.hpp"
 #include "lua_GameStartButton_auto.hpp"
 #include "lua_SmartScaleController_auto.hpp"
 #include "lua_ButtonEffectController_auto.hpp"
@@ -90,8 +90,8 @@ bool AppDelegate::applicationDidFinishLaunching()
     //register custom function
     //LuaStack* stack = engine->getLuaStack();
     //register_custom_function(stack->getLuaState());
-	register_all_LoadingScene(engine->getLuaStack()->getLuaState());
-	register_all_GameStageSelectionScene(engine->getLuaStack()->getLuaState());
+	//register_all_LoadingScene(engine->getLuaStack()->getLuaState());
+	//register_all_GameStageSelectionScene(engine->getLuaStack()->getLuaState());
     register_all_GameStartButton(engine->getLuaStack()->getLuaState());
     register_all_SmartScaleController(engine->getLuaStack()->getLuaState());
     register_all_ButtonEffectController(engine->getLuaStack()->getLuaState());
