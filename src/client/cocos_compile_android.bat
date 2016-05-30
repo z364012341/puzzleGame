@@ -1,0 +1,2 @@
+call cocos compile -p android -m release --no-apk --lua-encrypt --lua-encrypt-key 2dxLua --lua-encrypt-sign XXTEA
+call xcopy .\frameworks\runtime-src\proj.android\jni\prebuilt\*.so  .\frameworks\runtime-src\proj.android\libs\armeabi /s /i
