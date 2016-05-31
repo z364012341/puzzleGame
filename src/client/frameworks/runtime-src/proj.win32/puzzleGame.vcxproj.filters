@@ -44,9 +44,6 @@
     <ClInclude Include="..\Classes\GameJNIHelper.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\lua_ControlButtonController_auto.hpp">
-      <Filter>Classes</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\lua_GameAlertMask_auto.hpp">
       <Filter>Classes</Filter>
     </ClInclude>
@@ -150,9 +147,6 @@
       <Filter>Classes</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\GameJNIHelper.cpp">
-      <Filter>Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\lua_ControlButtonController_auto.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\lua_GameAlertMask_auto.cpp">

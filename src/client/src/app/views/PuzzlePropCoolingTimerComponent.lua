@@ -2,11 +2,11 @@
 -- Author: 黄泽昊
 -- 功能: 道具冷却进度条
 
-local PuzzlePropCoolingTimerComponent = class("PuzzlePropCoolingTimerComponent", function (path, time, callback)
+local PuzzlePropCoolingTimerComponent = class("PuzzlePropCoolingTimerComponent", function (path, time)
     return cc.Node:create();
 end)
 
-function PuzzlePropCoolingTimerComponent:ctor(path, time, callback)
+function PuzzlePropCoolingTimerComponent:ctor(path, time)
     local progressTimer = cc.ProgressTimer:create(GlobalFunction.createGameSpriteWithPath(path));
     progressTimer:setReverseDirection(true);
     progressTimer:setPercentage(100);

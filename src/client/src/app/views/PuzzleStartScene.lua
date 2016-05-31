@@ -39,6 +39,7 @@ function PuzzleStartScene:loadCSB()
     end);
     local start_button = bs.GameStartButton:createButtonStartForm()
     self.csb_node_:getChildByName(START_NODE_NAME):addChild(start_button);
+    self.csb_node_:getChildByName(START_NODE_NAME):setPositionY(cc.Director:getInstance():getVisibleSize().height*0.24)
     start_button:getStartButton():addClickEventListener(function ( ... )
         cc.Director:getInstance():replaceScene(PuzzleSelectedScene:createScene());
     end);
@@ -51,7 +52,10 @@ function PuzzleStartScene:loadCSB()
         self.alert_:setPosition(GlobalFunction.getVisibleCenterPosition());
         self:addChild(self.alert_);
     end);
+    self.csb_node_:getChildByName(NEWBIE_GIFT_BUTTON_NAME):setPositionY(cc.Director:getInstance():getVisibleSize().height*0.5)
     bs.ButtonEffectController:setButtonsZoomScale(self.csb_node_)
+
+    self.csb_node_:getChildByName("pintu01_2"):setPositionY(cc.Director:getInstance():getVisibleSize().height*0.8);
 end
 function PuzzleStartScene:updateNewbieGiftVisible( )
    self.csb_node_:getChildByName(NEWBIE_GIFT_BUTTON_NAME):setVisible(bs.UserDataManager:getInstance():canBuyNewbieGift());

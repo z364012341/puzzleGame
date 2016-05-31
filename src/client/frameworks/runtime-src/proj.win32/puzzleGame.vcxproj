@@ -203,7 +203,6 @@ xcopy "$(ProjectDir)..\..\..\src" "$(LocalDebuggerWorkingDirectory)\src" /D /E /
     <ClInclude Include="..\Classes\ide-support\lua_debugger.h" />
     <ClInclude Include="..\Classes\ide-support\RuntimeLuaImpl.h" />
     <ClInclude Include="..\Classes\lua_ButtonEffectController_auto.hpp" />
-    <ClInclude Include="..\Classes\lua_ControlButtonController_auto.hpp" />
     <ClInclude Include="..\Classes\lua_GameAlertMask_auto.hpp" />
     <ClInclude Include="..\Classes\lua_GameShareButton_auto.hpp" />
     <ClInclude Include="..\Classes\lua_GameStartButton_auto.hpp" />
@@ -243,7 +242,6 @@ xcopy "$(ProjectDir)..\..\..\src" "$(LocalDebuggerWorkingDirectory)\src" /D /E /
     <ClCompile Include="..\Classes\ide-support\lua_debugger.c" />
     <ClCompile Include="..\Classes\ide-support\RuntimeLuaImpl.cpp" />
     <ClCompile Include="..\Classes\lua_ButtonEffectController_auto.cpp" />
-    <ClCompile Include="..\Classes\lua_ControlButtonController_auto.cpp" />
     <ClCompile Include="..\Classes\lua_GameAlertMask_auto.cpp" />
     <ClCompile Include="..\Classes\lua_GameShareButton_auto.cpp" />
     <ClCompile Include="..\Classes\lua_GameStartButton_auto.cpp" />

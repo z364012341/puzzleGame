@@ -9,7 +9,7 @@
 #include "lua_SmartScaleController_auto.hpp"
 #include "lua_ButtonEffectController_auto.hpp"
 #include "lua_GameAlertMask_auto.hpp"
-#include "lua_ControlButtonController_auto.hpp"
+//#include "lua_ControlButtonController_auto.hpp"
 #include "lua_UserDataManager_auto.hpp"
 #include "lua_SpriteTextureController_auto.hpp"
 #include "lua_GameShareButton_auto.hpp"
@@ -96,7 +96,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     register_all_SmartScaleController(engine->getLuaStack()->getLuaState());
     register_all_ButtonEffectController(engine->getLuaStack()->getLuaState());
     register_all_GameAlertMask(engine->getLuaStack()->getLuaState());
-    register_all_ControlButtonController(engine->getLuaStack()->getLuaState());
+    //register_all_ControlButtonController(engine->getLuaStack()->getLuaState());
     register_all_UserDataManager(engine->getLuaStack()->getLuaState());
     register_all_SpriteTextureController(engine->getLuaStack()->getLuaState());
     register_all_PuzzleStageDataManager(engine->getLuaStack()->getLuaState());   

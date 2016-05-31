@@ -93,20 +93,20 @@
       </Animation>
       <AnimationList>
         <AnimationInfo Name="animation0" StartIndex="0" EndIndex="10">
-          <RenderColor A="150" R="255" G="0" B="0" />
+          <RenderColor A="255" R="255" G="0" B="0" />
         </AnimationInfo>
         <AnimationInfo Name="animation1" StartIndex="10" EndIndex="55">
-          <RenderColor A="150" R="105" G="105" B="105" />
+          <RenderColor A="255" R="105" G="105" B="105" />
         </AnimationInfo>
       </AnimationList>
       <ObjectData Name="Node" Tag="60" ctype="GameNodeObjectData">
         <Size X="0.0000" Y="0.0000" />
         <Children>
-          <AbstractNodeData Name="share_10" ActionTag="-799064121" Tag="61" IconVisible="False" LeftMargin="-56.3231" RightMargin="-165.6769" TopMargin="-187.9545" BottomMargin="-22.0455" ctype="SpriteObjectData">
+          <AbstractNodeData Name="share_10" ActionTag="-799064121" Tag="61" IconVisible="False" LeftMargin="-56.3214" RightMargin="-165.6786" TopMargin="-187.9500" BottomMargin="-22.0500" ctype="SpriteObjectData">
             <Size X="222.0000" Y="210.0000" />
             <AnchorPoint ScaleX="0.2537" ScaleY="0.1050" />
             <Position />
-            <Scale ScaleX="0.0100" ScaleY="0.0100" />
+            <Scale ScaleX="1.0200" ScaleY="1.0200" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />

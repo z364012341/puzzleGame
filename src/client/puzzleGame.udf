@@ -25,5 +25,15 @@
         <LastRunType Value="Windows" />
       </Value>
     </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="ui/GameStartMenuBottom.csd" />
+          <FilePathData Path="ui/GameShareButton.csd" />
+          <FilePathData Path="ui/PuzzleStartLayer.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="ui/PuzzleStartLayer.csd" />
+      </Value>
+    </Item>
   </Properties>
 </UserData>
